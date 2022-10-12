@@ -1,0 +1,29 @@
+# Creating resources in default workspace
+
+# Commands
+
+terraform init
+
+# Creating new workspace 
+
+terraform workspace new <workspace-name>
+
+# Listing Workspaces
+
+terraform workspace list 
+
+# Output current workspace using show
+
+terraform workspace show 
+
+terraform plan
+
+terraform apply -auto-approve
+
+# Switch to another workspace 
+
+terraform workspace select <workspace-name>
+
+# Deleting a workspace 
+
+terraform workspace delete <workspace-name> # The workspace must be empty
